@@ -3,10 +3,13 @@
 #include <Adafruit_AM2315.h>
 #include <FastLED.h>
 
+//***ARDUINO WIRE CONNECTIONS***
 // Connect RED of the AM2315 sensor to 5.0V
 // Connect BLACK to Ground
 // Connect WHITE to i2c clock (A5)
 // Connect YELLOW to i2c data (A4)
+// Connect LED data to pin 7 (D7)
+// Connect Water sensor to pin 2 (D2)
 
 // intiialize temp & hum sensor
 Adafruit_AM2315 am2315; 
